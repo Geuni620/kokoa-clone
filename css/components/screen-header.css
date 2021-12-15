@@ -16,16 +16,3 @@
   margin-left: 25px;
   position: relative;
 }
-
-.screen-header__dot {
-  background-color: tomato;
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 22px;
-  bottom: 22px;
-}
