@@ -30,6 +30,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__subtitle i {
+  color: red;
+  opacity: 0.5;
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
