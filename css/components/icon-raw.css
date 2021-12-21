@@ -10,7 +10,7 @@
   align-items: center;
   width: 25%;
   padding: 10px;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   transition: color 0.3s ease-in-out;
   color: rgba(0, 0, 0, 0.6);
 }
