@@ -12,7 +12,7 @@
   font-weight: 600;
 }
 
-..alt-header__column {
+.alt-header__column {
   width: 33%;
 }
 
@@ -20,7 +20,7 @@
   margin-right: auto;
 }
 
-..alt-header__column:nth-child(2) {
+.alt-header__column:nth-child(2) {
   text-align: center;
 }
 
