@@ -1,0 +1,59 @@
+<!-- 
+    1. label 태그를 사용
+    2. id 속성을 사용
+    3. 입력받는 모든 항목이 필수가 되도록 작성
+    4. 비밀번호 최소 10자리 이상 입력받도록 작성
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <h2>Create An Account</h2>
+    <form>
+      <label for="first-name">First name</label>
+      <input required id="first-name" type="text" placeholder="First name" />
+      <br />
+
+      <label for="last-name">Last name</label>
+      <input required id="last-name" type="text" placeholder="Last name" />
+      <br />
+
+      <label for="email">Email</label>
+      <input required id="email" type="text" placeholder="Email" />
+      <br />
+
+      <label for="username">Username</label>
+      <input required id="username" type="text" placeholder="Username" />
+      <br />
+
+      <label for="Password">Password</label>
+      <input
+        required
+        id="Password"
+        type="password"
+        minlength="10"
+        placeholder="Password"
+      />
+      <br />
+
+      <label for="birthday">Birth date</label>
+      <input required id="birthday" type="date" placeholder="Birthday" />
+      <br />
+
+      <label for="happy">How happy are you?</label>
+      <input required id="happy" type="range" />
+      <br />
+
+      <label for="color">What is your fav. color?</label>
+      <input required id="color" type="color" />
+      <br />
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
