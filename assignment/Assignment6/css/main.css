@@ -1,0 +1,30 @@
+.main > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 30px;
+}
+
+.main__frame {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.main__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__star {
+  margin: 30px 0;
+  color: #ffcf36;
+  font-size: 18px;
+}
+
+.main__column > img {
+  height: 240px;
+  width: 160px;
+  margin: 0 30px;
+  border-radius: 15px;
+}

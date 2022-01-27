@@ -1,0 +1,72 @@
+.header > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 30px;
+}
+
+.header__frame {
+  display: flex;
+}
+
+.header__left img {
+  height: 280px;
+  width: 200px;
+  margin: 0 30px;
+  border-radius: 15px;
+}
+
+.header__right h4 {
+  text-align: start;
+  line-height: 1.8em;
+  font-weight: 600;
+}
+
+.header__right h4:first-child {
+  font-size: 25px;
+}
+
+.header__text--margin {
+  margin: 18px 0px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.header__star {
+  color: #ffcf36;
+  font-size: 18px;
+}
+
+.header__btn {
+  display: flex;
+  margin: 30px 0px;
+  align-items: center;
+}
+
+.header__btn div {
+  margin-right: 8px;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__btn i {
+  width: 40px;
+  height: 40px;
+  background-color: #ffcf36;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+#header__btn--width {
+  width: 160px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
