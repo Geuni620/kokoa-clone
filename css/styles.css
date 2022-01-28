@@ -3,12 +3,15 @@
 @import "reset.css";
 @import "variables.css";
 
-/* Components */
+/* Components 여러개 중복해서 사용할 수 있는 것들.*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 
-/* Screens */
+/* Screens 딱 그 page만 구성하는 것들*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 * {
   box-sizing: border-box;
@@ -17,4 +20,5 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+  color: #2e363e;
 }
