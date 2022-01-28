@@ -1,0 +1,16 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,800&display=swap");
+@import "reset.css";
+@import "frame-right.css";
+@import "frame-left.css";
+
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
