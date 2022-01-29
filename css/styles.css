@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /* Screens 딱 그 page만 구성하는 것들*/
 @import "screens/login.css";
@@ -21,4 +22,8 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
   color: #2e363e;
+}
+
+.main-screen {
+  padding: 10px var(--horizontal-space);
 }
