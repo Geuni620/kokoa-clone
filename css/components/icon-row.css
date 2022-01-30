@@ -1,0 +1,28 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.6;
+  transition: opacity 0.4s ease-in-out;
+  margin-top: 30px;
+}
+
+.icon-row__icon:hover {
+  cursor: pointer;
+  color: black;
+  opacity: 1;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}

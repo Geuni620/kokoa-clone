@@ -4,6 +4,7 @@
 
 .user-component {
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .user-component,
@@ -55,4 +56,12 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__info {
+  color: rgb(247, 154, 154);
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 4px;
+  transform: translateY(16px);
 }
